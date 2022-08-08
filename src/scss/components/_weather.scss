@@ -1,0 +1,45 @@
+.weather {
+  background: #000;
+  border: 7px solid #000;
+  border-radius: $border-radius;
+  width: 310px;
+  height: 596.69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+  z-index: 3;
+  box-shadow: 2px 5px 20px #6773A1;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  transition: all 300ms ease;
+  display: none;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background: white;
+  border-color: white;
+  color: #12aafe;
+}
+
+.btn.active {
+  display: block;
+}
+
+.btn-circled {
+  border-radius: 50%;
+}
